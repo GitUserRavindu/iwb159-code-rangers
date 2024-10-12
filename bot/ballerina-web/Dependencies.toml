@@ -5,7 +5,7 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.10.1"
+distribution-version = "2201.10.0"
 
 [[package]]
 org = "ballerina"
@@ -302,14 +302,6 @@ modules = [
 ]
 
 [[package]]
-org = "ballerinax"
-name = "mysql.driver"
-version = "1.7.0"
-modules = [
-	{org = "ballerinax", packageName = "mysql.driver", moduleName = "mysql.driver"}
-]
-
-[[package]]
 org = "naveen_sandaruwan"
 name = "ballerina_web"
 version = "0.1.0"
@@ -318,8 +310,7 @@ dependencies = [
 	{org = "ballerina", name = "io"},
 	{org = "ballerina", name = "lang.value"},
 	{org = "ballerinai", name = "observe"},
-	{org = "ballerinax", name = "mongodb"},
-	{org = "ballerinax", name = "mysql.driver"}
+	{org = "ballerinax", name = "mongodb"}
 ]
 modules = [
 	{org = "naveen_sandaruwan", packageName = "ballerina_web", moduleName = "ballerina_web"}
